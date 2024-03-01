@@ -1,0 +1,100 @@
+/* 
+#FFE6E6 
+#E1AFD1
+#AD88C6
+#7469B6
+*/
+
+body {
+    margin: 0;
+    background-color: #FFE6E6;
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+pre {
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.header {
+    background-color: #7469B6;
+    text-align: center;
+}
+
+#header-title {
+    margin: 0;
+    color: #f1c6e4;
+    font-size: 60px;
+    border-top: 10px solid #4f4585;
+    border-bottom: 10px solid #4f4585;
+}
+
+#header-category {
+    color: #f1c6e4;
+    font-size: 45px;
+}
+
+.layout-grid {
+    display: grid;
+    height: 90vh;
+    grid-template-columns: max-content auto;
+}
+
+.custom-display {
+    display: inline-block;
+    background-color: #7469B6;
+    height: 100%;
+}
+
+.pure-menu-link {
+    font-size: 2vh;
+    font-weight: bold;
+    color: #E1AFD1 !important;
+    background-color: #7469B6;
+}
+
+.pure-menu-link:hover {
+    background-color: #614dd6 !important;
+}
+
+.index-main-content {
+    display:grid;
+    grid-template-columns: max-content auto max-content;
+    grid-template-rows: max-content auto;
+}
+
+.main-content {
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-rows: max-content auto;
+}
+
+.mc-title {
+    grid-column-start: span 3;
+    padding-left: 10px;
+    margin-bottom: 0;
+    border-bottom: 5px solid #af91a675;
+}
+
+.pers-details {
+    padding-left: 10px;
+    padding-right: 15px;
+    border-right: 5px solid #af91a675;
+}
+
+.introduction {
+    padding-left: 10px;
+}
+
+.lang-hobby {
+    padding-left: 10px;
+    padding-right: 50px;
+    border-left: 5px solid #af91a675;
+}
+
+.description {
+    padding-left: 10px;
+    padding-right: 15px;
+}
